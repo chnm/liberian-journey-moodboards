@@ -1,0 +1,115 @@
+#historical {
+    position:relative;
+    
+}
+
+.tabs .tab-title > a {
+
+}
+
+.tabs-content>.content {
+    padding:0.9375rem;
+}
+
+.section{
+    margin-top:50px;
+}
+
+.first {
+    margin-top:0;
+}
+
+.section h3 {
+    border-bottom:1px solid rgb(34,34,34);
+}
+
+#dark .section h3 {
+    border-bottom:1px solid #CCC;
+}
+
+.section #dark-typography h3,  #open-typography h3, #historical-typography h3 {
+    border:none;
+}
+
+div.no-bottom {
+    margin-bottom:0;
+}
+
+.color {
+    border:5px solid #fff;
+}
+
+.top {
+    margin-top:50px;
+}
+
+.small-top{
+    padding: 10px;
+}
+
+#historical:after {
+    content : "";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image:url(../img/StrongExpeditionMap.png) ;
+    width: 100%;
+    height: 100%;
+    opacity : 0.25;
+    z-index: -1;
+}
+
+#dark {
+    background-image: url(../img/darkbg05.png);
+    color:#CCC;
+}
+
+#dark h1,#dark h2,#dark h3,#dark h4,#dark h5,#dark h6 {
+    color:#CCC;
+}
+
+#trees img:not(:first-child) {
+    margin-top:44px;
+}
+
+.water {
+    margin-top:20px;
+}
+#dark-typography h1, #dark-typography h2, #dark-typography h3, #dark-typography h4, #dark-typography h5, #dark-typography h6, #dark-typography p  {
+    font-family:'Lato', sans-serif;
+}
+
+#open {
+    background-image: url(../img/modernbg01.png);
+}
+
+.street img:not(:first-child) {
+    margin-top:50px;
+}
+
+.seal img:not(:first-child) {
+    margin-top:5px;
+}
+
+#open-typography h1, #open-typography h2, #open-typography h3, #open-typography h4, #open-typography h5, #open-typography h6  {
+    font-family: 'Lobster Two', cursive;
+}
+
+#open-typography h1, #open-typography h3 {
+    font-style: italic;
+}
+
+#open-typography p {
+
+}
+
+#historical-typography h1, #historical-typography h2, #historical-typography h3, #historical-typography h4, #historical-typography h5, #historical-typography h6  {
+    font-family: 'Carter One', cursive;
+}
+
+#historical-typography p {
+    
+}
+
+
