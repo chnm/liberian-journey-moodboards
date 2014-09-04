@@ -73,8 +73,8 @@ div.no-bottom {
     margin-top:44px;
 }
 
-.water {
-    margin-top:20px;
+.water img:not(:first-child) {
+    margin-top:58px;
 }
 #dark-typography h1, #dark-typography h2, #dark-typography h3, #dark-typography h4, #dark-typography h5, #dark-typography h6, #dark-typography p  {
     font-family:'Lato', sans-serif;
@@ -85,10 +85,10 @@ div.no-bottom {
 }
 
 .street img:not(:first-child) {
-    margin-top:50px;
+    margin-top:35px;
 }
 
-.seal img:not(:first-child) {
+.seal  {
     margin-top:5px;
 }
 
